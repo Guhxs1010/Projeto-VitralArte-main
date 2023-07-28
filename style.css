@@ -1,0 +1,372 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family:'Roboto' ;
+    src: url(Projeto-VitralArte-main/Font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:'Poppins' ;
+    src: url(Projeto-VitralArte-main/Font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:'OpenSans' ;
+    src: url(Projeto-VitralArte-main/Font/OpenSans-Regular.ttf);
+}
+.inicio{
+    background-color: #106EEA;
+    display: flex;
+    height: 40px;
+}
+.texto{
+      font: 100 17px 'OpenSans', sans-serif;
+      margin: 0 20px;
+      color: white;
+      margin-left: 100px;
+      margin-top: 6px;
+}
+
+.container{
+    display: flex;
+    margin:0  100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin:0 150px;
+}
+.nome, .nome1{
+    font-family: 'Poppins';
+    margin: 0 10px;
+}
+.nome1{
+    font-size: 50px;
+}
+.item{
+    font: 200 20px 'OpenSans', sans-serif;
+    margin: 15px;
+    color: black;
+    margin-top: 10px;
+}
+.nome2{
+    font: 600 30px 'OpenSans', sans-serif;
+}
+.nome1, .nome2{
+   margin-right: 180px;
+   margin-top: -10px;
+}
+.logo1{
+    background-image: url(Projeto-VitralArte-main/Img/Vitral.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.titulo{
+    font: 200 20px 'Roboto', sans-serif;
+    color: black;
+    margin: 0 5px;
+}
+.titulo1{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+.titulo2{
+    font: 200 20px 'Roboto', sans-serif;
+    color: #106EEA;
+}
+.sub{
+    font: 600 16px 'OpenSans', sans-serif;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.titulo1, .sub{
+    margin-top: 20px;
+}
+.centro{
+    margin-top: 100px;
+    display: flex;
+}
+.imagemcentro{
+    margin-left: 80px;
+}
+.caixas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.caixas .imagem img{
+        width: 60px;
+        height: auto;
+        padding-bottom: 20px;
+}
+.caixa{
+    border: 1px solid #4d4d4e;
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;
+    height: 170px;
+    margin-top: 60px;
+    background-color: #F1F6FE;
+    
+}
+.titulo8{
+    font: 700 33px 'OpenSans', sans-serif;
+}
+.texto2{
+    font: 100 15px 'Roboto', sans-serif;
+    color: rgb(104, 101, 101);
+}
+.titulo11{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 640px;
+}
+.titulo10{
+    font: 200 20px 'Roboto', sans-serif;
+    color: black;
+    margin: 0 5px;
+}
+.titulo9{
+    font: 200 20px 'Roboto', sans-serif;
+    color: #106EEA;
+}
+.subtito1{
+    font: 200 15px 'OpenSans', sans-serif;
+    text-align: center;
+}
+.box{
+    border: 1px solid #106EEA;
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;
+    height: 170px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+}
+.textbox{
+    font: 100 17px 'OpenSans', sans-serif;
+    color: #000000;
+    margin-top: 25px;
+}
+.boxes2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}  
+.box2{
+    border: 1px solid #106EEA ;
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;
+    height: 170px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.textbox2{
+    font: 100 17px 'OpenSans', sans-serif;
+    color: #000000;
+    margin-top: 24px;
+}
+.textbox3{
+    font: 100 17px 'OpenSans', sans-serif;
+    color: #000000;
+    margin-top: 50px;
+}
+.titulo20{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 640px;
+}
+.titulo21{
+    font: 200 20px 'Roboto', sans-serif;
+    color: black;
+    margin: 0 5px;
+}
+.titulo22{
+    font: 200 20px 'Roboto', sans-serif;
+    color: #106EEA;
+}
+.pessoas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+.pessoa{
+    border: 1px solid #000000;
+    text-align: center;
+    width: 202px;
+    height: 530px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    margin: 0 -300px;
+}
+.pessoa20{
+    width: 200px;
+}
+.tiutlope{
+    font: 700 24px 'Poppins', sans-serif;
+}
+.textopessoas{
+    font: 400 15px 'OpenSans', sans-serif; 
+}
+.subtito3{
+    font: 600 16px 'OpenSans', sans-serif;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.subtito2{
+    font: 200 15px 'OpenSans', sans-serif;
+    text-align: center;
+}
+.titulo30 .titulo22{
+     text-align: center;
+     margin-top: 40px;
+     padding: 5px;
+}
+.titulobox{
+    font: 700 32px 'Poppins', sans-serif;
+    margin-top: 70px;
+}
+.contatos{
+    border: 1px solid #a09e9e;
+    text-align: center;
+    padding: 20px 25px;
+    width: 370px;
+    height: 350px;
+    margin-top: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.contato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.textcont{
+    font: 100 25px 'OpenSans', sans-serif;
+    color: #000000;
+    margin-top: 35px;
+}
+.continicio{
+    display: flex;
+}
+#contato{
+    flex-direction: column;
+}
+.news{
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    width: 100%;
+}
+.endereco{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid #8CA9CE;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.endereco .titulo{
+    font: 400 29px 'roboto-bold',sans-serif;
+}
+input{
+    border-radius: 10px;
+    background: #E5E5E5;
+    font: 600 29px 'roboto-bold', sans-serif;
+    color: #C1C1C1;
+}
+.seu-nome,
+.email{
+    width: 200px;
+    height: 63px;
+}
+.assunto{
+    width: 450px;
+    height: 63px;
+    margin: 30px 0;
+}
+.mensagem{
+    width: 450px;
+    height: 159px;
+}
+.seu-nome{
+    margin-right: 40px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+}
+button{
+    border-radius: 15px;
+    background: #106EEA;
+    width: 294px;
+    height: 60px;
+    font: 600 29px 'roboto-bold', sans-serif;
+    color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.form{
+    margin-top: -240px;
+    margin-left:400px ;
+}
+.rodape{
+    background-color: #1150A3;
+    width: 100%;
+    height: 230px;
+    margin-top: 140px;
+}
+.menu2{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.item1{
+    font: 200 20px 'OpenSans', sans-serif;
+    margin: 8px;
+    color: rgb(255, 255, 255);
+}
+.subtito0{
+    font: 200 20px 'OpenSans', sans-serif;
+    color: white;
+}
+.subtito00{
+    margin-left: 1100px;
+    margin-top: -170px;
+}
+.imagemrede{
+    margin-top: 10px;
+}
